@@ -8,6 +8,9 @@ import os
 
 app = Flask(__name__)
 
+playfabCache = {}
+name_saves = {}
+
 @app.route("/")
 def home():
     return jsonify({"status": "working"})
