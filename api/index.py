@@ -8,6 +8,10 @@ import os
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return jsonify({"status": "working"})
+    
 TITLE_ID = ("9255")
 SECRET_KEY = ("HR9K4A5S8PUE9MJJ7XWN519PRDYNKTJWQKUF65FK6W4ZOUFRP9")
 DISCORD_WEBHOOK = ("https://discord.com/api/webhooks/1574532376070066249/5c80ZBX1h0hnUTTRrgnRNWjn74yJ6YqRFQgekPGsEhs7ZVM5tiqY3QzLXQS5h-GKMLcb")
