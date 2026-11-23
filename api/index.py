@@ -55,7 +55,7 @@ def Tippys_Fetch_Poll():
 
 @app.route("/api/Vote", methods=["POST"])
 def Tippys_VoteApi():
-    VOTING_WEBHOOK = ""
+    VOTING_WEBHOOK = "https://discord.com/api/webhooks/1574533288390041753/qpyVypj_Tax98dntCMmBXKrYCicZMS2ughhtRIJ4N5fu50VAehopgKETDEIsTtpILbZZ"
 
     get = request.get_json()
 
