@@ -13,7 +13,7 @@ def home():
 def method_not_allowed(e):
     if request.method == "GET":
         return jsonify({"status": "working"}), 200
-    return jsonify({"status": "working"}), 405
+    return jsonify({"error": "Method not allowed"}), 405
     
 title = "19255"
 secretkey = "HR9K4A5S8PUE9MJJ7XWN519PRDYNKTJWQKUF65FK6W4ZOUFRP9"
