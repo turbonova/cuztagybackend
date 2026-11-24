@@ -5,6 +5,10 @@ import requests
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return jsonify({"status": "working"})
+    
 title = "19255"
 secretkey = "HR9K4A5S8PUE9MJJ7XWN519PRDYNKTJWQKUF65FK6W4ZOUFRP9"
 coems = {}
