@@ -15,7 +15,7 @@ name_saves = {}
 def home():
     return jsonify({"status": "working"})
     
-TITLE_ID = ("9255")
+TITLE_ID = ("19255")
 SECRET_KEY = ("HR9K4A5S8PUE9MJJ7XWN519PRDYNKTJWQKUF65FK6W4ZOUFRP9")
 DISCORD_WEBHOOK = ("https://discord.com/api/webhooks/1574532376070066249/5c80ZBX1h0hnUTTRrgnRNWjn74yJ6YqRFQgekPGsEhs7ZVM5tiqY3QzLXQS5h-GKMLcb")
 PHOTON_WEBHOOK_URL = ("https://discord.com/api/webhooks/1574532213201043607/teDPQWdAigwJaTYFVlCy4oR_xV4BmO6q7EKpUGvELl6yUZIuUNM6ECbf8NnzJdYWpz6o")
