@@ -5,6 +5,10 @@ import requests
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return jsonify({"status": "working"})
+    
 @app.errorhandler(405)
 def method_not_allowed(e):
     if request.method == "GET":
