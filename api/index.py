@@ -15,8 +15,8 @@ def method_not_allowed(e):
         return jsonify({"status": "working"}), 200
     return jsonify({"error": "Method not allowed"}), 405
     
-title = "19255"
-secretkey = "HR9K4A5S8PUE9MJJ7XWN519PRDYNKTJWQKUF65FK6W4ZOUFRP9"
+title = "96EE7"
+secretkey = "SO3B3BXIHI9EXEHX5I36O8YOZYWT9BK34UCEHPMYKARB9QI65C"
 coems = {}
 
 def authjh():
